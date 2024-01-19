@@ -1,9 +1,7 @@
 body {
-
     background-image: url("images/table.jpg"); 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-size: cover;
-    
 
 }
 
@@ -13,11 +11,35 @@ h1 {
     color: goldenrod;
 }
 
-#text   {
-
+#text {
     text-align: center;
-    padding: 40px;
+    padding: 60px;
+    margin-top: 10px;
     color: white;
     font-size: 24px;
     font-weight: bold;
+}
+
+#message-el {
+
+    font-style: italic;
+
+}
+
+#start-btn {
+    
+    background-color: goldenrod;
+    border-radius: 8px;
+    padding: 20px;
+    color: #016f32;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    border: none;
+    
+}
+
+#start-btn:hover {
+    background-color: gold;
+    cursor: pointer;
 }
